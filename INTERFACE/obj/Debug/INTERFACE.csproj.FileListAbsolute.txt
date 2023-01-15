@@ -54,3 +54,4 @@ C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\bin\D
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.LoginTem.resources
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.exe.licenses
+C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.Dashboard.resources

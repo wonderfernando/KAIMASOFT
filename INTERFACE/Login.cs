@@ -93,6 +93,12 @@ namespace INTERFACE
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            new Dashboard().Show();
+            this.Hide();
+        }
+
+        private void txtSenha_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
