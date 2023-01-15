@@ -26,5 +26,21 @@ namespace INTERFACE
         {
 
         }
+
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(guna2Button12.Checked.ToString());
+        }
+
+        private void menuclick(object sender, EventArgs e)
+        {
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            
+        }
     }
 }
