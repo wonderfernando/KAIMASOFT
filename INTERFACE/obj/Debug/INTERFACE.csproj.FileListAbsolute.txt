@@ -55,3 +55,4 @@ C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\bin\D
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.LoginTem.resources
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.exe.licenses
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.Dashboard.resources
+C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.Form2.resources

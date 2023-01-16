@@ -39,8 +39,27 @@ namespace INTERFACE
 
         private void menuclick(object sender, EventArgs e)
         {
+            resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
+            submenu.Visible = true;
+
+            Form2 from = new Form2();
+            from.TopLevel = false;
+            from.Dock = DockStyle.Fill;
+            from.FormBorderStyle = FormBorderStyle.None;
+            conteiner.Controls.Add(from);
+            conteiner.Tag = from;
+            from.BringToFront();
+            from.Show();
             
         }
+        public void resetButtonMenu()
+        {
+            guna2Button1.Checked = false;
+            guna2Button12.Checked = false;
+            guna2Button3.Checked = false;
+            guna2Button2.Checked = false;
+        } 
     }
 }
