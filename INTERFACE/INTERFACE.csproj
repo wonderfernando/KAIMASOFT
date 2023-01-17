@@ -93,6 +93,12 @@
     <Compile Include="LoginTem.Designer.cs">
       <DependentUpon>LoginTem.cs</DependentUpon>
     </Compile>
+    <Compile Include="MessageBoxDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxDialog.Designer.cs">
+      <DependentUpon>MessageBoxDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboard.resx">
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginTem.resx">
       <DependentUpon>LoginTem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxDialog.resx">
+      <DependentUpon>MessageBoxDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -190,6 +199,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\aluno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\academic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\git.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened-door-aperture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\work.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened-door-aperture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\academic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\branch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\course.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
