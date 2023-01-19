@@ -239,6 +239,54 @@
   <ItemGroup>
     <None Include="Resources\room.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animated-loading-gif-8-unscreen1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximize Window_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduation-hat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expand Arrow_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expand Arrow_52px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackExpand Arrow_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suitcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1564535_customer_user_userphoto_account_person_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticky-note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squareswt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writingwt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userwt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signwt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noteswt.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

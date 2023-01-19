@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -42,29 +43,51 @@ namespace INTERFACE
 
         }
 
-        public void resetButtonMenu()
+        public void resetButtonMenu(Guna.UI2.WinForms.Guna2Button btn = null)
         {
-           /* guna2Button1.Checked = false;
+
+            btnAdemica.Checked = false;
+            btnAdmin.Checked = false;
+            btnCurso.Checked = false;
+            btnDashboard.Checked = false;
+            btnFormacao.Checked = false;
+            btnTurma.Checked = false;
+            btnRelatorio.Checked = false;
+            btnAdemica.Checked = false;
+
+            guna2Button4.Checked = false;
+
+            guna2Button11.Checked = false;
             guna2Button12.Checked = false;
-            guna2Button3.Checked = false;
-            guna2Button2.Checked = false;
+            guna2Button14.Checked = false;
+            guna2Button15.Checked = false;
+            
+            guna2Button16.Checked = false;
+
+            guna2Button19.Checked = false;
+             guna2Button20.Checked = false;
+            guna2Button8.Checked = false;
             guna2Button9.Checked = false;
-            guna2Button6.Checked = false;
-            guna2Button7.Checked = false;*/
+            
+
+
         }
         public void hideSubMenu()
         {
-            submenuAdmin.Visible = false;
+            submenuAcademinc.Visible = false;
+            subMenuAdmin.Visible = false;
+            submenuRelatorio.Visible = false;
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            if (!guna2Button2.Checked)
+            if (!btnDashboard.Checked)
             {
                 resetButtonMenu();
                 hideSubMenu();
                 (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
 
+                    /*
                 Form2 from = new Form2();
                 from.TopLevel = false;
                 from.Dock = DockStyle.Fill;
@@ -72,12 +95,9 @@ namespace INTERFACE
                 conteiner.Controls.Add(from);
                 conteiner.Tag = from;
                 from.BringToFront();
-                from.Show();
+                from.Show();*/
             }
-            else
-            {
-                resetButtonMenu();
-            }
+           
             
         }
 
@@ -143,33 +163,35 @@ namespace INTERFACE
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            if (!guna2Button1.Checked)
+            
+            if (!btnAdemica.Checked)
             {
-                resetButtonMenu();
-                hideSubMenu();
-                (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
-                showSubmenu(submenuAdmin);
-                /*
-                Form2 from = new Form2();
-                from.TopLevel = false;
-                from.Dock = DockStyle.Fill;
-                from.FormBorderStyle = FormBorderStyle.None;
-             //   conteiner.Controls.Add(from);
-                conteiner.Tag = from;
-                from.BringToFront();
-                // from.Show();*/
+                 resetButtonMenu();
+                if (submenuAcademinc.Visible == false)
+                {
+                  
+                    hideSubMenu();
+                    (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+                    showSubmenu(submenuAcademinc);
+                }
+                else
+                {
+                    MessageBox.Show("");
+                    hideSubMenu();
+                }
+            
+            
             }
             else
             {
-                resetButtonMenu();
                 hideSubMenu();
-                guna2Button1.Checked = false;
+                resetButtonMenu();
             }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            if (!guna2Button2.Checked)
+            if (!btnFormacao.Checked)
             {
                 resetButtonMenu();
                 hideSubMenu();
@@ -190,36 +212,247 @@ namespace INTERFACE
         {
 
         }
+       
 
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-            
+            resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
         }
 
         private void guna2Button6_Click_1(object sender, EventArgs e)
         {
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            resetButtonMenu();
         }
 
         private void guna2Button7_Click_1(object sender, EventArgs e)
         {
-            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            resetButtonMenu();(sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
         }
 
         private void guna2Button8_Click(object sender, EventArgs e)
         {
+            resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
         }
 
         private void guna2Button9_Click_1(object sender, EventArgs e)
         {
+            resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+             
+                /*
+                Form2 from = new Form2();
+                from.TopLevel = false;
+                from.Dock = DockStyle.Fill;
+                from.FormBorderStyle = FormBorderStyle.None;
+             //   conteiner.Controls.Add(from);
+                conteiner.Tag = from;
+                from.BringToFront();
+                // from.Show();*/
+
+                if (!btnAdmin.Checked)
+                {
+                    resetButtonMenu();
+                    if (subMenuAdmin.Visible == false)
+                    {
+
+                        hideSubMenu();
+                        (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+                        showSubmenu(subMenuAdmin);
+                    }
+                    else
+                    {
+                        hideSubMenu();
+                    }
+
+
+                }
+                else
+                {
+                    hideSubMenu();
+                    resetButtonMenu();
+                }
+            }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            WindowState = WindowState == FormWindowState.Maximized ? FormWindowState.Normal : FormWindowState.Maximized;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+          //  conta.Visible = !conta.Visible;
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            if (!guna2Button4.Checked)
+            {
+                resetButtonMenu();
+                hideSubMenu();
+                (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
+                /*
+            Form2 from = new Form2();
+            from.TopLevel = false;
+            from.Dock = DockStyle.Fill;
+            from.FormBorderStyle = FormBorderStyle.None;
+            conteiner.Controls.Add(from);
+            conteiner.Tag = from;
+            from.BringToFront();
+            from.Show();*/
+            }
+
+        }
+
+        private void guna2Button14_Click(object sender, EventArgs e)
+        {
+            if (!guna2Button14.Checked)
+            {
+                resetButtonMenu();
+                hideSubMenu();
+                (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
+                /*
+            Form2 from = new Form2();
+            from.TopLevel = false;
+            from.Dock = DockStyle.Fill;
+            from.FormBorderStyle = FormBorderStyle.None;
+            conteiner.Controls.Add(from);
+            conteiner.Tag = from;
+            from.BringToFront();
+            from.Show();*/
+            }
+        }
+
+        private void guna2Button15_Click(object sender, EventArgs e)
+        {
+            if (!guna2Button15.Checked)
+            {
+                resetButtonMenu();
+                hideSubMenu();
+                (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
+                /*
+            Form2 from = new Form2();
+            from.TopLevel = false;
+            from.Dock = DockStyle.Fill;
+            from.FormBorderStyle = FormBorderStyle.None;
+            conteiner.Controls.Add(from);
+            conteiner.Tag = from;
+            from.BringToFront();
+            from.Show();*/
+            }
+        }
+
+        private void guna2Button16_Click(object sender, EventArgs e)
+        {
+            if (!guna2Button16.Checked)
+            {
+                resetButtonMenu();
+                hideSubMenu();
+                (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
+                /*
+            Form2 from = new Form2();
+            from.TopLevel = false;
+            from.Dock = DockStyle.Fill;
+            from.FormBorderStyle = FormBorderStyle.None;
+            conteiner.Controls.Add(from);
+            conteiner.Tag = from;
+            from.BringToFront();
+            from.Show();*/
+            }
+        }
+
+        private void btnRelatorio_Click(object sender, EventArgs e)
+        {
+
+            if (!btnRelatorio.Checked)
+            {
+                resetButtonMenu();
+                if (submenuAcademinc.Visible == false)
+                {
+
+                    hideSubMenu();
+                    (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+                    showSubmenu(submenuRelatorio);
+                }
+                else
+                {
+                    hideSubMenu();
+                }
+
+
+            }
+            else
+            {
+                hideSubMenu();
+                resetButtonMenu();
+            }
+        }
+
+        private void pnlTop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlTop_DoubleClick(object sender, EventArgs e)
+        {
+            
+            if (WindowState == FormWindowState.Normal)
+            {
+                WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void pnlTop_MouseClick(object sender, MouseEventArgs e)
+        {
+         
+        }
+
+        private void pnlTop_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            resetButtonMenu();
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+        }
+
+        private void guna2Button12_Click_2(object sender, EventArgs e)
+        {
+            resetButtonMenu();
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+        }
+
+        private void guna2Button20_Click(object sender, EventArgs e)
+        {
+            resetButtonMenu();
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+        }
+
+        private void guna2Button19_Click(object sender, EventArgs e)
+        {
+            resetButtonMenu();
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
         }
     }
 }
