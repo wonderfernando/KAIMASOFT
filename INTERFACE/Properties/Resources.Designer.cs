@@ -163,6 +163,16 @@ namespace INTERFACE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blackExpand_Arrow_52px1 {
+            get {
+                object obj = ResourceManager.GetObject("blackExpand Arrow_52px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book {
             get {
                 object obj = ResourceManager.GetObject("book", resourceCulture);
@@ -253,6 +263,16 @@ namespace INTERFACE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Forward_52pxLeft {
+            get {
+                object obj = ResourceManager.GetObject("Forward_52pxLeft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap git {
             get {
                 object obj = ResourceManager.GetObject("git", resourceCulture);
@@ -326,6 +346,26 @@ namespace INTERFACE.Properties {
         internal static System.Drawing.Bitmap Maximize_Window_50px {
             get {
                 object obj = ResourceManager.GetObject("Maximize Window_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Menu_64px {
+            get {
+                object obj = ResourceManager.GetObject("Menu_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Menu_64pxwt {
+            get {
+                object obj = ResourceManager.GetObject("Menu_64pxwt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

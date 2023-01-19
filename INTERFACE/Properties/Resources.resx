@@ -142,6 +142,9 @@
   <data name="dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="noteswt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noteswt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nolook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nolook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -156,6 +159,9 @@
   </data>
   <data name="load" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\load.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="talao5.pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\talao5.pdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,6 +223,9 @@
   <data name="sticky-note" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sticky-note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blackExpand Arrow_52px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blackExpand Arrow_52px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="aluno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aluno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -235,14 +244,17 @@
   <data name="Expand Arrow_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Expand Arrow_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Maximize Window_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maximize Window_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="work" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Forward_52pxLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forward_52pxLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="animated-loading-gif-8-unscreen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animated-loading-gif-8-unscreen1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,7 +271,7 @@
   <data name="userwt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\userwt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="noteswt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noteswt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Menu_64pxwt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu_64pxwt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -454,5 +454,22 @@ namespace INTERFACE
             resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+             
+        }
+
+        private void guna2Button2_Click_2(object sender, EventArgs e)
+        {
+            if (guna2ShadowPanel1.Width > 0)
+            {
+                guna2ShadowPanel1.Width = 0;
+            }
+            else
+            {
+                guna2ShadowPanel1.Width = 323;
+            }
+        }
     }
 }
