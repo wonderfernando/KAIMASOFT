@@ -54,6 +54,7 @@ namespace INTERFACE
             btnTurma.Checked = false;
             btnRelatorio.Checked = false;
             btnAdemica.Checked = false;
+            btnAnoLetivo.Checked = false;
 
             guna2Button4.Checked = false;
 
@@ -176,7 +177,7 @@ namespace INTERFACE
                 }
                 else
                 {
-                    MessageBox.Show("");
+                   
                     hideSubMenu();
                 }
             
@@ -212,18 +213,28 @@ namespace INTERFACE
         {
 
         }
-       
-
+        GestaoAcademica.FrmAreaFormacao frm = new GestaoAcademica.FrmAreaFormacao();
+ 
+        Form activeForm;
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
             resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
+            
+            frm.TopLevel = false;
+            frm.Dock = DockStyle.Fill; 
+            conteiner.Controls.Add(frm);
+            frm.BringToFront();
+            conteiner.Tag = frm;
+            frm.Show();            
         }
 
         private void guna2Button6_Click_1(object sender, EventArgs e)
         {
-            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
             resetButtonMenu();
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            
         }
 
         private void guna2Button7_Click_1(object sender, EventArgs e)
@@ -288,6 +299,14 @@ namespace INTERFACE
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             WindowState = WindowState == FormWindowState.Maximized ? FormWindowState.Normal : FormWindowState.Maximized;
+
+            //so Pra nao dar erro
+            if (conteiner.Controls.Count>0)
+            {
+                conteiner.Controls.Remove(frm);
+                conteiner.Controls.Add(frm);
+                frm.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -457,19 +476,35 @@ namespace INTERFACE
 
         private void button1_Click(object sender, EventArgs e)
         {
-             
-        }
+          }
 
         private void guna2Button2_Click_2(object sender, EventArgs e)
         {
             if (guna2ShadowPanel1.Width > 0)
             {
                 guna2ShadowPanel1.Width = 0;
-            }
+            } 
             else
             {
                 guna2ShadowPanel1.Width = 323;
             }
+            //so Pra nao dar erro
+             
+            if (conteiner.Controls.Count > 0)
+            {
+
+                conteiner.Controls.Remove(frm);
+                conteiner.Controls.Add(frm);
+                frm.Show();
+            }
+
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            resetButtonMenu();
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
         }
     }
 }
