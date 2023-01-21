@@ -58,3 +58,6 @@ C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\D
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.exe.licenses
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.GestaoAcademica.FrmAreaFormacao.resources
 C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.GestaoAcademica.FrmAreaFormacaoCadastro.resources
+C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.GestaoAcademica.FrmAnolectvo.resources
+C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.GestaoAcademica.FrmAnoLetivoCadastro.resources
+C:\Users\programador\Documents\Visual Studio 2015\Projects\KAIMA\INTERFACE\obj\Debug\INTERFACE.GestaoAcademica.FrmCursoCadastrar.resources

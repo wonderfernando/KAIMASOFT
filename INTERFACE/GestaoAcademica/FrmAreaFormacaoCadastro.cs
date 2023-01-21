@@ -26,5 +26,15 @@ namespace INTERFACE.GestaoAcademica
         {
 
         }
+
+        private void pnlTop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmAreaFormacaoCadastro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

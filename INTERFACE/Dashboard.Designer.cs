@@ -34,16 +34,6 @@
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.submenuRelatorio = new System.Windows.Forms.Panel();
-            this.subMenuAdmin = new System.Windows.Forms.Panel();
-            this.submenuAcademinc = new System.Windows.Forms.Panel();
-            this.pnlTop = new System.Windows.Forms.Panel();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.conteiner = new System.Windows.Forms.Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button20 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button19 = new Guna.UI2.WinForms.Guna2Button();
             this.btnRelatorio = new Guna.UI2.WinForms.Guna2Button();
@@ -51,9 +41,11 @@
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.subMenuAdmin = new System.Windows.Forms.Panel();
             this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.btnAdmin = new Guna.UI2.WinForms.Guna2Button();
+            this.submenuAcademinc = new System.Windows.Forms.Panel();
             this.btnAnoLetivo = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
@@ -62,22 +54,30 @@
             this.btnFormacao = new Guna.UI2.WinForms.Guna2Button();
             this.btnAdemica = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlTop = new System.Windows.Forms.Panel();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnMin = new Guna.UI2.WinForms.Guna2Button();
             this.btnOculta = new Guna.UI2.WinForms.Guna2Button();
             this.btnFechar = new Guna.UI2.WinForms.Guna2Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.conteiner = new System.Windows.Forms.Panel();
             this.guna2ShadowPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.submenuRelatorio.SuspendLayout();
             this.subMenuAdmin.SuspendLayout();
             this.submenuAcademinc.SuspendLayout();
             this.pnlTop.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -132,151 +132,6 @@
             this.submenuRelatorio.Size = new System.Drawing.Size(278, 283);
             this.submenuRelatorio.TabIndex = 18;
             this.submenuRelatorio.Visible = false;
-            // 
-            // subMenuAdmin
-            // 
-            this.subMenuAdmin.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.subMenuAdmin.Controls.Add(this.guna2Button12);
-            this.subMenuAdmin.Controls.Add(this.guna2Button11);
-            this.subMenuAdmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subMenuAdmin.Location = new System.Drawing.Point(0, 395);
-            this.subMenuAdmin.Name = "subMenuAdmin";
-            this.subMenuAdmin.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
-            this.subMenuAdmin.Size = new System.Drawing.Size(278, 90);
-            this.subMenuAdmin.TabIndex = 8;
-            this.subMenuAdmin.Visible = false;
-            // 
-            // submenuAcademinc
-            // 
-            this.submenuAcademinc.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.submenuAcademinc.Controls.Add(this.btnAnoLetivo);
-            this.submenuAcademinc.Controls.Add(this.guna2Button9);
-            this.submenuAcademinc.Controls.Add(this.guna2Button8);
-            this.submenuAcademinc.Controls.Add(this.btnTurma);
-            this.submenuAcademinc.Controls.Add(this.btnCurso);
-            this.submenuAcademinc.Controls.Add(this.btnFormacao);
-            this.submenuAcademinc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.submenuAcademinc.Location = new System.Drawing.Point(0, 112);
-            this.submenuAcademinc.Name = "submenuAcademinc";
-            this.submenuAcademinc.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
-            this.submenuAcademinc.Size = new System.Drawing.Size(278, 230);
-            this.submenuAcademinc.TabIndex = 6;
-            this.submenuAcademinc.Visible = false;
-            // 
-            // pnlTop
-            // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.pnlTop.Controls.Add(this.guna2ComboBox1);
-            this.pnlTop.Controls.Add(this.guna2PictureBox2);
-            this.pnlTop.Controls.Add(this.btnMin);
-            this.pnlTop.Controls.Add(this.btnOculta);
-            this.pnlTop.Controls.Add(this.btnFechar);
-            this.pnlTop.Controls.Add(this.label1);
-            this.pnlTop.Controls.Add(this.guna2CirclePictureBox1);
-            this.pnlTop.Controls.Add(this.pictureBox1);
-            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlTop.Location = new System.Drawing.Point(0, 0);
-            this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(1300, 65);
-            this.pnlTop.TabIndex = 0;
-            this.pnlTop.Click += new System.EventHandler(this.pnlTop_Click);
-            this.pnlTop.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTop_Paint);
-            this.pnlTop.DoubleClick += new System.EventHandler(this.pnlTop_DoubleClick);
-            this.pnlTop.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlTop_MouseClick);
-            // 
-            // guna2ComboBox1
-            // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderThickness = 0;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.guna2ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2ComboBox1.FormattingEnabled = true;
-            this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
-            "Fernando",
-            "Mudar de Conta",
-            "Sair"});
-            this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(369, 23);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Size = new System.Drawing.Size(166, 36);
-            this.guna2ComboBox1.StartIndex = 0;
-            this.guna2ComboBox1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(367, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 21);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Fernando";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this.pnlTop;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.guna2Button2);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(324, 65);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(976, 59);
-            this.panel1.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(61, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(234, 21);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Gestão Academica > Cursos";
-            // 
-            // conteiner
-            // 
-            this.conteiner.BackColor = System.Drawing.SystemColors.Control;
-            this.conteiner.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.conteiner.Location = new System.Drawing.Point(324, 124);
-            this.conteiner.Name = "conteiner";
-            this.conteiner.Size = new System.Drawing.Size(976, 596);
-            this.conteiner.TabIndex = 3;
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BorderRadius = 8;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.LightGray;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Image = global::INTERFACE.Properties.Resources.Menu_64px;
-            this.guna2Button2.Location = new System.Drawing.Point(6, 8);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(50, 45);
-            this.guna2Button2.TabIndex = 0;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_2);
             // 
             // guna2Button20
             // 
@@ -494,6 +349,19 @@
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
+            // subMenuAdmin
+            // 
+            this.subMenuAdmin.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.subMenuAdmin.Controls.Add(this.guna2Button12);
+            this.subMenuAdmin.Controls.Add(this.guna2Button11);
+            this.subMenuAdmin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.subMenuAdmin.Location = new System.Drawing.Point(0, 395);
+            this.subMenuAdmin.Name = "subMenuAdmin";
+            this.subMenuAdmin.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.subMenuAdmin.Size = new System.Drawing.Size(278, 90);
+            this.subMenuAdmin.TabIndex = 8;
+            this.subMenuAdmin.Visible = false;
+            // 
             // guna2Button12
             // 
             this.guna2Button12.Animated = true;
@@ -587,6 +455,23 @@
             this.btnAdmin.Text = "Gestao Administrativa";
             this.btnAdmin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAdmin.Click += new System.EventHandler(this.guna2Button10_Click);
+            // 
+            // submenuAcademinc
+            // 
+            this.submenuAcademinc.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.submenuAcademinc.Controls.Add(this.btnAnoLetivo);
+            this.submenuAcademinc.Controls.Add(this.guna2Button9);
+            this.submenuAcademinc.Controls.Add(this.guna2Button8);
+            this.submenuAcademinc.Controls.Add(this.btnTurma);
+            this.submenuAcademinc.Controls.Add(this.btnCurso);
+            this.submenuAcademinc.Controls.Add(this.btnFormacao);
+            this.submenuAcademinc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.submenuAcademinc.Location = new System.Drawing.Point(0, 112);
+            this.submenuAcademinc.Name = "submenuAcademinc";
+            this.submenuAcademinc.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.submenuAcademinc.Size = new System.Drawing.Size(278, 230);
+            this.submenuAcademinc.TabIndex = 6;
+            this.submenuAcademinc.Visible = false;
             // 
             // btnAnoLetivo
             // 
@@ -841,6 +726,55 @@
             this.btnDashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDashboard.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
+            // pnlTop
+            // 
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.pnlTop.Controls.Add(this.guna2ComboBox1);
+            this.pnlTop.Controls.Add(this.guna2PictureBox2);
+            this.pnlTop.Controls.Add(this.btnMin);
+            this.pnlTop.Controls.Add(this.btnOculta);
+            this.pnlTop.Controls.Add(this.btnFechar);
+            this.pnlTop.Controls.Add(this.label1);
+            this.pnlTop.Controls.Add(this.guna2CirclePictureBox1);
+            this.pnlTop.Controls.Add(this.pictureBox1);
+            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTop.Location = new System.Drawing.Point(0, 0);
+            this.pnlTop.Name = "pnlTop";
+            this.pnlTop.Size = new System.Drawing.Size(1300, 65);
+            this.pnlTop.TabIndex = 0;
+            this.pnlTop.Click += new System.EventHandler(this.pnlTop_Click);
+            this.pnlTop.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTop_Paint);
+            this.pnlTop.DoubleClick += new System.EventHandler(this.pnlTop_DoubleClick);
+            this.pnlTop.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlTop_MouseClick);
+            // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderThickness = 0;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.guna2ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
+            this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.White;
+            this.guna2ComboBox1.FormattingEnabled = true;
+            this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "Fernando",
+            "Mudar de Conta",
+            "Sair"});
+            this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
+            this.guna2ComboBox1.Location = new System.Drawing.Point(369, 23);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
+            this.guna2ComboBox1.Size = new System.Drawing.Size(166, 36);
+            this.guna2ComboBox1.StartIndex = 0;
+            this.guna2ComboBox1.TabIndex = 0;
+            // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
@@ -865,11 +799,11 @@
             this.btnMin.ForeColor = System.Drawing.Color.White;
             this.btnMin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
             this.btnMin.HoverState.Parent = this.btnMin;
-            this.btnMin.Image = global::INTERFACE.Properties.Resources.squareswt;
-            this.btnMin.Location = new System.Drawing.Point(1227, 11);
+            this.btnMin.Image = ((System.Drawing.Image)(resources.GetObject("btnMin.Image")));
+            this.btnMin.Location = new System.Drawing.Point(1227, 12);
             this.btnMin.Name = "btnMin";
             this.btnMin.ShadowDecoration.Parent = this.btnMin;
-            this.btnMin.Size = new System.Drawing.Size(31, 40);
+            this.btnMin.Size = new System.Drawing.Size(35, 40);
             this.btnMin.TabIndex = 11;
             this.btnMin.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
@@ -885,7 +819,7 @@
             this.btnOculta.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
             this.btnOculta.HoverState.Parent = this.btnOculta;
             this.btnOculta.Image = ((System.Drawing.Image)(resources.GetObject("btnOculta.Image")));
-            this.btnOculta.Location = new System.Drawing.Point(1183, 3);
+            this.btnOculta.Location = new System.Drawing.Point(1183, 6);
             this.btnOculta.Name = "btnOculta";
             this.btnOculta.ShadowDecoration.Parent = this.btnOculta;
             this.btnOculta.Size = new System.Drawing.Size(38, 50);
@@ -903,11 +837,25 @@
             this.btnFechar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
             this.btnFechar.HoverState.Parent = this.btnFechar;
             this.btnFechar.Image = ((System.Drawing.Image)(resources.GetObject("btnFechar.Image")));
-            this.btnFechar.Location = new System.Drawing.Point(1268, 6);
+            this.btnFechar.Location = new System.Drawing.Point(1268, 9);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.ShadowDecoration.Parent = this.btnFechar;
             this.btnFechar.Size = new System.Drawing.Size(29, 47);
             this.btnFechar.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(367, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 21);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Fernando";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // guna2CirclePictureBox1
             // 
@@ -934,6 +882,59 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this.pnlTop;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.guna2Button2);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(324, 65);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(976, 59);
+            this.panel1.TabIndex = 2;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.Animated = true;
+            this.guna2Button2.BorderRadius = 8;
+            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+            this.guna2Button2.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2Button2.HoverState.Parent = this.guna2Button2;
+            this.guna2Button2.Image = global::INTERFACE.Properties.Resources.Menu_64px;
+            this.guna2Button2.Location = new System.Drawing.Point(6, 8);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+            this.guna2Button2.Size = new System.Drawing.Size(50, 45);
+            this.guna2Button2.TabIndex = 0;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_2);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(61, 21);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(234, 21);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Gestão Academica > Cursos";
+            // 
+            // conteiner
+            // 
+            this.conteiner.BackColor = System.Drawing.SystemColors.Control;
+            this.conteiner.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.conteiner.Location = new System.Drawing.Point(324, 124);
+            this.conteiner.Name = "conteiner";
+            this.conteiner.Size = new System.Drawing.Size(976, 596);
+            this.conteiner.TabIndex = 3;
+            this.conteiner.Paint += new System.Windows.Forms.PaintEventHandler(this.conteiner_Paint_1);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -957,11 +958,11 @@
             this.submenuAcademinc.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

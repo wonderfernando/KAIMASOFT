@@ -13,6 +13,7 @@ namespace INTERFACE
 {
     public partial class Dashboard : Form
     {
+        Form activeForm;
         public Dashboard()
         {
             InitializeComponent();
@@ -20,7 +21,7 @@ namespace INTERFACE
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-
+            openChildForm(new Form2());
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -82,26 +83,21 @@ namespace INTERFACE
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            if (!btnDashboard.Checked)
+            if (!guna2Button2.Checked)
             {
                 resetButtonMenu();
                 hideSubMenu();
                 (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
-
-                    /*
-                Form2 from = new Form2();
-                from.TopLevel = false;
-                from.Dock = DockStyle.Fill;
-                from.FormBorderStyle = FormBorderStyle.None;
-                conteiner.Controls.Add(from);
-                conteiner.Tag = from;
-                from.BringToFront();
-                from.Show();*/
+                openChildForm(new Form2());
             }
-           
-            
-        }
 
+
+        }
+     
+       public void openForm(Form frmChild)
+        {
+         //   activeForm = frmChild;
+        }
         private void guna2Button12_Click_1(object sender, EventArgs e)
         {
             /*
@@ -213,27 +209,71 @@ namespace INTERFACE
         {
 
         }
-        GestaoAcademica.FrmAreaFormacao frm = new GestaoAcademica.FrmAreaFormacao();
- 
-        Form activeForm;
+        GestaoAcademica.FrmAreaFormacao frmAreaFormacao = new GestaoAcademica.FrmAreaFormacao();
+        Form2 frmDashboard = new Form2();
+
+
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-            resetButtonMenu();
-            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            if (!guna2Button2.Checked)
+            {
+                resetButtonMenu();
+                (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+                openChildForm(new GestaoAcademica.FrmAreaFormacao());
+            }
+           
+             
+        }
+      
+        public void openChildForm(Form child)
+        {
+         
+            if (activeForm != null)
+            {
+                if(activeForm != child)
+                {
+                    activeForm.Close();
+                   // conteiner.Controls.Remove(activeForm);
+                   // activeForm.Dispose();
 
-            
-            frm.TopLevel = false;
-            frm.Dock = DockStyle.Fill; 
-            conteiner.Controls.Add(frm);
-            frm.BringToFront();
-            conteiner.Tag = frm;
-            frm.Show();            
+                    child.TopLevel = false;
+                    child.Dock = DockStyle.Fill;
+                    child.BringToFront();  
+                    conteiner.Tag = child;
+                    child.FormBorderStyle = FormBorderStyle.None;
+                    conteiner.Controls.Add(child);
+                    child.Show();
+                }   
+            }
+            else
+            {
+                child.TopLevel = false;
+                child.Dock = DockStyle.Fill;
+                child.FormBorderStyle = FormBorderStyle.None;
+                child.BringToFront();
+                conteiner.Tag = child;
+                conteiner.Controls.Add(child);
+                child.Show();
+            }
+            activeForm = child;
         }
 
+        private enum gf
+        {
+            Masculino ,
+            Femenino
+        };
         private void guna2Button6_Click_1(object sender, EventArgs e)
         {
-            resetButtonMenu();
-            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            if (!guna2Button2.Checked)
+            {
+
+                resetButtonMenu();
+                (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+                new GestaoAcademica.FrmCursoCadastrar().ShowDialog();
+                //openChildForm(new GestaoAcademica.FrmCursoCadastrar());
+            }
+        
             
         }
 
@@ -303,9 +343,7 @@ namespace INTERFACE
             //so Pra nao dar erro
             if (conteiner.Controls.Count>0)
             {
-                conteiner.Controls.Remove(frm);
-                conteiner.Controls.Add(frm);
-                frm.Show();
+                openChildForm(activeForm);
             }
         }
 
@@ -493,9 +531,7 @@ namespace INTERFACE
             if (conteiner.Controls.Count > 0)
             {
 
-                conteiner.Controls.Remove(frm);
-                conteiner.Controls.Add(frm);
-                frm.Show();
+                openChildForm(activeForm);
             }
 
         }
@@ -504,6 +540,20 @@ namespace INTERFACE
         {
             resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+
+            GestaoAcademica.FrmAnolectvo from = new GestaoAcademica.FrmAnolectvo();
+            from.TopLevel = false;
+            from.Dock = DockStyle.Fill;
+            from.FormBorderStyle = FormBorderStyle.None;
+            conteiner.Controls.Add(from);
+            conteiner.Tag = from;
+            from.BringToFront();
+            from.Show(); 
+
+        }
+
+        private void conteiner_Paint_1(object sender, PaintEventArgs e)
+        {
 
         }
     }

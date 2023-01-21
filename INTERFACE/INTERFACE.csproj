@@ -99,6 +99,18 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestaoAcademica\FrmAnolectvo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestaoAcademica\FrmAnolectvo.Designer.cs">
+      <DependentUpon>FrmAnolectvo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestaoAcademica\FrmAnoLetivoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestaoAcademica\FrmAnoLetivoCadastro.Designer.cs">
+      <DependentUpon>FrmAnoLetivoCadastro.cs</DependentUpon>
+    </Compile>
     <Compile Include="GestaoAcademica\FrmAreaFormacao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,12 @@
     </Compile>
     <Compile Include="GestaoAcademica\FrmAreaFormacaoCadastro.Designer.cs">
       <DependentUpon>FrmAreaFormacaoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestaoAcademica\FrmCursoCadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestaoAcademica\FrmCursoCadastrar.Designer.cs">
+      <DependentUpon>FrmCursoCadastrar.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -134,11 +152,20 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GestaoAcademica\FrmAnolectvo.resx">
+      <DependentUpon>FrmAnolectvo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestaoAcademica\FrmAnoLetivoCadastro.resx">
+      <DependentUpon>FrmAnoLetivoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestaoAcademica\FrmAreaFormacao.resx">
       <DependentUpon>FrmAreaFormacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestaoAcademica\FrmAreaFormacaoCadastro.resx">
       <DependentUpon>FrmAreaFormacaoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestaoAcademica\FrmCursoCadastrar.resx">
+      <DependentUpon>FrmCursoCadastrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -355,6 +382,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Forward_64WTpx1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus Math_52px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
