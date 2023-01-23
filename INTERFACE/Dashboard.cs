@@ -279,7 +279,9 @@ namespace INTERFACE
 
         private void guna2Button7_Click_1(object sender, EventArgs e)
         {
-            resetButtonMenu();(sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            resetButtonMenu();
+            (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            openChildForm(new GestaoAcademica.FrmTurma());
         }
 
         private void guna2Button8_Click(object sender, EventArgs e)
