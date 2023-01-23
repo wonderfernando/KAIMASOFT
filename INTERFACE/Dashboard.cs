@@ -227,7 +227,7 @@ namespace INTERFACE
       
         public void openChildForm(Form child)
         {
-         
+            child.Dock = DockStyle.Fill;
             if (activeForm != null)
             {
                 if(activeForm != child)
@@ -270,8 +270,8 @@ namespace INTERFACE
 
                 resetButtonMenu();
                 (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
-                new GestaoAcademica.FrmCursoCadastrar().ShowDialog();
-                //openChildForm(new GestaoAcademica.FrmCursoCadastrar());
+            //    new GestaoAcademica.FrmCursoCadastrar().ShowDialog();
+                openChildForm(new GestaoAcademica.FrmCurso());
             }
         
             
@@ -286,12 +286,14 @@ namespace INTERFACE
         {
             resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            openChildForm(new GestaoAcademica.FrmDisciplina());
         }
 
         private void guna2Button9_Click_1(object sender, EventArgs e)
         {
             resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
+            openChildForm(new GestaoAcademica.FrmSala());
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -343,6 +345,7 @@ namespace INTERFACE
             //so Pra nao dar erro
             if (conteiner.Controls.Count>0)
             {
+                activeForm.Dock = DockStyle.Fill;
                 openChildForm(activeForm);
             }
         }
@@ -541,14 +544,15 @@ namespace INTERFACE
             resetButtonMenu();
             (sender as Guna.UI2.WinForms.Guna2Button).Checked = true;
 
-            GestaoAcademica.FrmAnolectvo from = new GestaoAcademica.FrmAnolectvo();
-            from.TopLevel = false;
+            GestaoAcademica.FrmAnolectvo fromAno = new GestaoAcademica.FrmAnolectvo();
+            openChildForm(fromAno);
+            /* from.TopLevel = false;
             from.Dock = DockStyle.Fill;
             from.FormBorderStyle = FormBorderStyle.None;
             conteiner.Controls.Add(from);
             conteiner.Tag = from;
             from.BringToFront();
-            from.Show(); 
+            from.Show(); */
 
         }
 

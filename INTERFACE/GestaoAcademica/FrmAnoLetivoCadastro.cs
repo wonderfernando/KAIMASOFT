@@ -19,13 +19,27 @@ namespace INTERFACE.GestaoAcademica
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            FrmCursoCadastrar frmCurso = new FrmCursoCadastrar();
-            frmCurso.Show();
+            
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void FrmAnoLetivoCadastro_Load(object sender, EventArgs e)
+        {
+            guna2ShadowForm1.SetShadowForm(this);
+        }
+
+        private void dateTimeChartRangeControlClient1_CustomizeSeries(object sender, DevExpress.XtraEditors.ClientDataSourceProviderCustomizeSeriesEventArgs e)
+        {
+
+        }
+
+        private void guna2DateTimePicker1_MouseLeave(object sender, EventArgs e)
+        {
+       
         }
     }
 }

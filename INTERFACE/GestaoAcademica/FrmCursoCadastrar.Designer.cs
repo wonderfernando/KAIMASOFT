@@ -37,26 +37,31 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pnlTop = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnFechar = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.checkedListBoxControl1 = new DevExpress.XtraEditors.CheckedListBoxControl();
-            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.shadowDisciContainer = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.btnFechar = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.pnlTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkedListBoxControl1)).BeginInit();
-            this.guna2ShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkedListBoxControl1)).BeginInit();
+            this.shadowDisciContainer.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(37, 84);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(35, 84);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 20);
             this.label2.TabIndex = 15;
@@ -64,6 +69,8 @@
             // 
             // guna2TextBox2
             // 
+            this.guna2TextBox2.BackColor = System.Drawing.Color.White;
+            this.guna2TextBox2.BorderRadius = 5;
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox2.DefaultText = "";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -71,6 +78,7 @@
             this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.DisabledState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -89,7 +97,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(442, 86);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(414, 86);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 20);
             this.label1.TabIndex = 13;
@@ -98,6 +107,7 @@
             // guna2ComboBox1
             // 
             this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderRadius = 5;
             this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
@@ -112,7 +122,7 @@
             "Quimica",
             "Mecanica"});
             this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(446, 109);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(417, 109);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.Size = new System.Drawing.Size(310, 36);
@@ -122,7 +132,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(58, 211);
+            this.label3.Location = new System.Drawing.Point(17, 12);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 20);
             this.label3.TabIndex = 23;
@@ -137,7 +147,7 @@
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(789, 50);
+            this.pnlTop.Size = new System.Drawing.Size(749, 50);
             this.pnlTop.TabIndex = 24;
             // 
             // label4
@@ -150,6 +160,35 @@
             this.label4.Size = new System.Drawing.Size(145, 17);
             this.label4.TabIndex = 9;
             this.label4.Text = "CADASTRAR CURSO";
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFechar.CheckedState.Parent = this.btnFechar;
+            this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFechar.CustomImages.Parent = this.btnFechar;
+            this.btnFechar.FillColor = System.Drawing.Color.Transparent;
+            this.btnFechar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnFechar.ForeColor = System.Drawing.Color.White;
+            this.btnFechar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
+            this.btnFechar.HoverState.Parent = this.btnFechar;
+            this.btnFechar.Image = ((System.Drawing.Image)(resources.GetObject("btnFechar.Image")));
+            this.btnFechar.Location = new System.Drawing.Point(717, 2);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.ShadowDecoration.Parent = this.btnFechar;
+            this.btnFechar.Size = new System.Drawing.Size(29, 47);
+            this.btnFechar.TabIndex = 9;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::INTERFACE.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(-54, -64);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(177, 185);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // guna2Button1
             // 
@@ -164,7 +203,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button1.Location = new System.Drawing.Point(651, 380);
+            this.guna2Button1.Location = new System.Drawing.Point(622, 380);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(105, 40);
@@ -198,24 +237,35 @@
             new DevExpress.XtraEditors.Controls.CheckedListBoxItem(null),
             new DevExpress.XtraEditors.Controls.CheckedListBoxItem(null),
             new DevExpress.XtraEditors.Controls.CheckedListBoxItem(null)});
-            this.checkedListBoxControl1.Location = new System.Drawing.Point(59, 242);
+            this.checkedListBoxControl1.Location = new System.Drawing.Point(17, 44);
             this.checkedListBoxControl1.Name = "checkedListBoxControl1";
-            this.checkedListBoxControl1.Size = new System.Drawing.Size(295, 160);
+            this.checkedListBoxControl1.Size = new System.Drawing.Size(282, 148);
             this.checkedListBoxControl1.TabIndex = 27;
             this.checkedListBoxControl1.SelectedIndexChanged += new System.EventHandler(this.checkedListBoxControl1_SelectedIndexChanged);
             // 
-            // guna2ShadowPanel1
+            // shadowDisciContainer
             // 
-            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel1.Controls.Add(this.guna2CircleButton1);
-            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(37, 189);
-            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
-            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.ShadowDepth = 20;
-            this.guna2ShadowPanel1.ShadowShift = 10;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(338, 231);
-            this.guna2ShadowPanel1.TabIndex = 28;
+            this.shadowDisciContainer.BackColor = System.Drawing.Color.Transparent;
+            this.shadowDisciContainer.Controls.Add(this.panel1);
+            this.shadowDisciContainer.FillColor = System.Drawing.Color.Transparent;
+            this.shadowDisciContainer.Location = new System.Drawing.Point(37, 185);
+            this.shadowDisciContainer.Name = "shadowDisciContainer";
+            this.shadowDisciContainer.ShadowColor = System.Drawing.Color.Black;
+            this.shadowDisciContainer.ShadowDepth = 20;
+            this.shadowDisciContainer.ShadowShift = 10;
+            this.shadowDisciContainer.Size = new System.Drawing.Size(338, 235);
+            this.shadowDisciContainer.TabIndex = 28;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.guna2CircleButton1);
+            this.panel1.Controls.Add(this.checkedListBoxControl1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Location = new System.Drawing.Point(9, 8);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(318, 207);
+            this.panel1.TabIndex = 31;
             // 
             // guna2CircleButton1
             // 
@@ -228,56 +278,37 @@
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.Image = global::INTERFACE.Properties.Resources.Plus_Math_52px;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(287, 12);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(271, 3);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.Size = new System.Drawing.Size(38, 38);
             this.guna2CircleButton1.TabIndex = 30;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
-            // btnFechar
+            // guna2Elipse2
             // 
-            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFechar.CheckedState.Parent = this.btnFechar;
-            this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFechar.CustomImages.Parent = this.btnFechar;
-            this.btnFechar.FillColor = System.Drawing.Color.Transparent;
-            this.btnFechar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
-            this.btnFechar.HoverState.Parent = this.btnFechar;
-            this.btnFechar.Image = ((System.Drawing.Image)(resources.GetObject("btnFechar.Image")));
-            this.btnFechar.Location = new System.Drawing.Point(757, 2);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.ShadowDecoration.Parent = this.btnFechar;
-            this.btnFechar.Size = new System.Drawing.Size(29, 47);
-            this.btnFechar.TabIndex = 9;
+            this.guna2Elipse2.BorderRadius = 30;
+            this.guna2Elipse2.TargetControl = this.panel1;
             // 
-            // pictureBox1
+            // guna2Elipse3
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::INTERFACE.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(-54, -64);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(177, 185);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.guna2Elipse3.BorderRadius = 30;
+            this.guna2Elipse3.TargetControl = this.shadowDisciContainer;
             // 
             // FrmCursoCadastrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(789, 432);
-            this.Controls.Add(this.checkedListBoxControl1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(749, 432);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.pnlTop);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2ShadowPanel1);
+            this.Controls.Add(this.shadowDisciContainer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmCursoCadastrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -285,9 +316,11 @@
             this.Load += new System.EventHandler(this.FrmCursoCadastrar_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkedListBoxControl1)).EndInit();
-            this.guna2ShadowPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkedListBoxControl1)).EndInit();
+            this.shadowDisciContainer.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,8 +340,11 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private DevExpress.XtraEditors.CheckedListBoxControl checkedListBoxControl1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel shadowDisciContainer;
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
     }
 }

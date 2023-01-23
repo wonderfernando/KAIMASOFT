@@ -19,7 +19,12 @@ namespace INTERFACE.GestaoAcademica
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-  new FrmAnoLetivoCadastro().ShowDialog();
+
+            FrmAnoLetivoCadastro frmAnoLetivoCadastro = new FrmAnoLetivoCadastro();
+            if (frmAnoLetivoCadastro.ShowDialog()== DialogResult.OK)
+            {
+                MessageBox.Show("reload dataGridView");
+            }
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

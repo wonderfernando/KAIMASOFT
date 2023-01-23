@@ -29,7 +29,9 @@ namespace INTERFACE.GestaoAcademica
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            //salvar dados no banco;
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
 
         private void checkedListBoxControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -40,6 +42,19 @@ namespace INTERFACE.GestaoAcademica
         private void FrmCursoCadastrar_Load(object sender, EventArgs e)
         {
             guna2ShadowForm1.SetShadowForm(this);
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            using (FrmDisciplinaCadastro frmDisci = new FrmDisciplinaCadastro())
+            {
+                if(frmDisci.ShowDialog() == DialogResult.OK)
+                {
+                    MessageBox.Show("reload listbox");
+                }
+               
+            }
+            
         }
     }
 }
