@@ -19,12 +19,16 @@ namespace INTERFACE.GestaoAcademica
           //  Guna.UI2.WinForms.Helpers.DataGridViewScrollHelper scroll = new Guna.UI2.WinForms.Helpers.DataGridViewScrollHelper(guna2DataGridView1, guna2VScrollBar1, false);
           //  scroll.UpdateScrollBar();
             guna2DataGridView1.Rows.Add(7);
+
+        //    btnApagar.Image = INTERFACE.Properties.Resources.bt;
+
+
             guna2DataGridView1.Rows[0].Cells[0].Value = "Informatica";
             guna2DataGridView1.Rows[0].Cells[1].Value = "Area Tecnica";
             guna2DataGridView1.Rows[0].Cells[2].Value = "Ver";
             guna2DataGridView1.Rows[0].Cells[3].Value = "Deletar";
             guna2DataGridView1.Rows[0].Cells[4].Value = "Apagar";
-
+         
             guna2DataGridView1.Rows[1].Cells[0].Value = "Eletronica e Telecomunicacoes";
             guna2DataGridView1.Rows[1].Cells[1].Value = "Area Tecnica";
             guna2DataGridView1.Rows[1].Cells[2].Value = "Ver";
@@ -36,7 +40,7 @@ namespace INTERFACE.GestaoAcademica
             guna2DataGridView1.Rows[2].Cells[2].Value = "Ver";
             guna2DataGridView1.Rows[2].Cells[3].Value = "Deletar";
             guna2DataGridView1.Rows[2].Cells[4].Value = "Apagar";
-
+           
             guna2DataGridView1.Rows[3].Cells[0].Value = "Enfermagem";
             guna2DataGridView1.Rows[3].Cells[1].Value = "Area Saude";
             guna2DataGridView1.Rows[3].Cells[2].Value = "Ver";
@@ -73,6 +77,16 @@ namespace INTERFACE.GestaoAcademica
             {
                 MessageBox.Show("Reload dataGridView");
             }
+        }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FrmCurso_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

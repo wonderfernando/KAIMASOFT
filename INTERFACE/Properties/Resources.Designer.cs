@@ -193,6 +193,46 @@ namespace INTERFACE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnDelete {
+            get {
+                object obj = ResourceManager.GetObject("btnDelete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnEdit41 {
+            get {
+                object obj = ResourceManager.GetObject("btnEdit41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnEdit7 {
+            get {
+                object obj = ResourceManager.GetObject("btnEdit7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnView {
+            get {
+                object obj = ResourceManager.GetObject("btnView", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close {
             get {
                 object obj = ResourceManager.GetObject("close", resourceCulture);
@@ -356,6 +396,26 @@ namespace INTERFACE.Properties {
         internal static System.Drawing.Bitmap icons8_minimizar_janela_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-minimizar-janela-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap labelActive {
+            get {
+                object obj = ResourceManager.GetObject("labelActive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap labelInactive {
+            get {
+                object obj = ResourceManager.GetObject("labelInactive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

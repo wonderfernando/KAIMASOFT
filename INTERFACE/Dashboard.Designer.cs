@@ -68,6 +68,7 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
             this.conteiner = new System.Windows.Forms.Panel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ShadowPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.submenuRelatorio.SuspendLayout();
@@ -126,7 +127,7 @@
             this.submenuRelatorio.Controls.Add(this.guna2Button20);
             this.submenuRelatorio.Controls.Add(this.guna2Button19);
             this.submenuRelatorio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.submenuRelatorio.Location = new System.Drawing.Point(0, 774);
+            this.submenuRelatorio.Location = new System.Drawing.Point(0, 816);
             this.submenuRelatorio.Name = "submenuRelatorio";
             this.submenuRelatorio.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
             this.submenuRelatorio.Size = new System.Drawing.Size(278, 283);
@@ -219,7 +220,7 @@
             this.btnRelatorio.HoverState.Parent = this.btnRelatorio;
             this.btnRelatorio.Image = global::INTERFACE.Properties.Resources.Forward_64px;
             this.btnRelatorio.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnRelatorio.Location = new System.Drawing.Point(0, 721);
+            this.btnRelatorio.Location = new System.Drawing.Point(0, 763);
             this.btnRelatorio.Name = "btnRelatorio";
             this.btnRelatorio.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
             this.btnRelatorio.ShadowDecoration.Parent = this.btnRelatorio;
@@ -250,7 +251,7 @@
             this.guna2Button16.HoverState.Parent = this.guna2Button16;
             this.guna2Button16.Image = global::INTERFACE.Properties.Resources.open_book;
             this.guna2Button16.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button16.Location = new System.Drawing.Point(0, 662);
+            this.guna2Button16.Location = new System.Drawing.Point(0, 704);
             this.guna2Button16.Name = "guna2Button16";
             this.guna2Button16.ShadowDecoration.Parent = this.guna2Button16;
             this.guna2Button16.Size = new System.Drawing.Size(278, 59);
@@ -280,7 +281,7 @@
             this.guna2Button15.HoverState.Parent = this.guna2Button15;
             this.guna2Button15.Image = global::INTERFACE.Properties.Resources.sticky_note;
             this.guna2Button15.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button15.Location = new System.Drawing.Point(0, 603);
+            this.guna2Button15.Location = new System.Drawing.Point(0, 645);
             this.guna2Button15.Name = "guna2Button15";
             this.guna2Button15.ShadowDecoration.Parent = this.guna2Button15;
             this.guna2Button15.Size = new System.Drawing.Size(278, 59);
@@ -310,7 +311,7 @@
             this.guna2Button14.HoverState.Parent = this.guna2Button14;
             this.guna2Button14.Image = global::INTERFACE.Properties.Resources.sign_up;
             this.guna2Button14.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button14.Location = new System.Drawing.Point(0, 544);
+            this.guna2Button14.Location = new System.Drawing.Point(0, 586);
             this.guna2Button14.Name = "guna2Button14";
             this.guna2Button14.ShadowDecoration.Parent = this.guna2Button14;
             this.guna2Button14.Size = new System.Drawing.Size(278, 59);
@@ -340,7 +341,7 @@
             this.guna2Button4.HoverState.Parent = this.guna2Button4;
             this.guna2Button4.Image = global::INTERFACE.Properties.Resources.writing;
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.Location = new System.Drawing.Point(0, 485);
+            this.guna2Button4.Location = new System.Drawing.Point(0, 527);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
             this.guna2Button4.Size = new System.Drawing.Size(278, 59);
@@ -355,7 +356,7 @@
             this.subMenuAdmin.Controls.Add(this.guna2Button12);
             this.subMenuAdmin.Controls.Add(this.guna2Button11);
             this.subMenuAdmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subMenuAdmin.Location = new System.Drawing.Point(0, 395);
+            this.subMenuAdmin.Location = new System.Drawing.Point(0, 437);
             this.subMenuAdmin.Name = "subMenuAdmin";
             this.subMenuAdmin.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
             this.subMenuAdmin.Size = new System.Drawing.Size(278, 90);
@@ -447,7 +448,7 @@
             this.btnAdmin.HoverState.Parent = this.btnAdmin;
             this.btnAdmin.Image = global::INTERFACE.Properties.Resources.Forward_64px;
             this.btnAdmin.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnAdmin.Location = new System.Drawing.Point(0, 342);
+            this.btnAdmin.Location = new System.Drawing.Point(0, 384);
             this.btnAdmin.Name = "btnAdmin";
             this.btnAdmin.ShadowDecoration.Parent = this.btnAdmin;
             this.btnAdmin.Size = new System.Drawing.Size(278, 53);
@@ -459,6 +460,7 @@
             // submenuAcademinc
             // 
             this.submenuAcademinc.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.submenuAcademinc.Controls.Add(this.guna2Button1);
             this.submenuAcademinc.Controls.Add(this.btnAnoLetivo);
             this.submenuAcademinc.Controls.Add(this.guna2Button9);
             this.submenuAcademinc.Controls.Add(this.guna2Button8);
@@ -469,7 +471,7 @@
             this.submenuAcademinc.Location = new System.Drawing.Point(0, 112);
             this.submenuAcademinc.Name = "submenuAcademinc";
             this.submenuAcademinc.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
-            this.submenuAcademinc.Size = new System.Drawing.Size(278, 230);
+            this.submenuAcademinc.Size = new System.Drawing.Size(278, 272);
             this.submenuAcademinc.TabIndex = 6;
             this.submenuAcademinc.Visible = false;
             // 
@@ -935,6 +937,37 @@
             this.conteiner.TabIndex = 3;
             this.conteiner.Paint += new System.Windows.Forms.PaintEventHandler(this.conteiner_Paint_1);
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(133)))), ((int)(((byte)(9)))));
+            this.guna2Button1.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.CustomImages.CheckedImage = global::INTERFACE.Properties.Resources.room;
+            this.guna2Button1.CustomImages.HoveredImage = global::INTERFACE.Properties.Resources.room;
+            this.guna2Button1.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Button1.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(133)))), ((int)(((byte)(9)))));
+            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Image = global::INTERFACE.Properties.Resources.opened_door_aperture1;
+            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.ImageOffset = new System.Drawing.Point(20, 0);
+            this.guna2Button1.Location = new System.Drawing.Point(0, 229);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(278, 37);
+            this.guna2Button1.TabIndex = 15;
+            this.guna2Button1.Text = "Turnos";
+            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.TextOffset = new System.Drawing.Point(20, 0);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1006,5 +1039,6 @@
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

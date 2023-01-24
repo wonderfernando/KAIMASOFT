@@ -66,5 +66,10 @@ namespace INTERFACE.GestaoAcademica
         {
 
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            new FrmTurmaCadastro().ShowDialog();
+        }
     }
 }
